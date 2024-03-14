@@ -17,7 +17,7 @@ def abrirSistema():
     robo.press("enter")
 
     #fazendo login
-    time.sleep(2)
+    time.sleep(5)
     robo.click(x=397, y=338)
     robo.write("victor.graciano") #nome usuario
     robo.click(x=439, y=393)
