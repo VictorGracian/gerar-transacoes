@@ -70,7 +70,13 @@ def gerarTransacao():
     robo.click(x=305, y=99)
     time.sleep(1)
     robo.click(x=890, y=403)
-    
-    
+
+
+
+
+
+
 time.sleep(3)
 robo.position()
+
+
