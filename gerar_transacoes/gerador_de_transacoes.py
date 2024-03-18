@@ -25,9 +25,20 @@ def abrirSistema():
     robo.click(x=462, y=446) # clicando em entrar
     print("sistema aberto")
 
-
-
-
+def gerarTransacoes():
+    robo.write("16")
+    robo.press("enter")
+    time.sleep(1)
+    robo.write("1")
+    robo.press("enter")
+    time.sleep(1)
+    robo.write("01/01/2020")
+    robo.press("enter")
+    time.sleep(1)
+    robo.write("31/12/2100")
+    robo.press("enter")
+    robo.press("enter")
+    print("empresa selecionada")
 
 
 time.sleep(3)
