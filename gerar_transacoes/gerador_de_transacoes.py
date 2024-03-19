@@ -81,6 +81,7 @@ def repeticao():
             robo.press("F9")
             time.sleep(2)
             robo.press("enter")
+            print(i,"feito")
             time.sleep(15)
             
 
