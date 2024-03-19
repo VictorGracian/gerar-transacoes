@@ -70,7 +70,18 @@ def repeticao():
     with open(r"C:\Users\victor.graciano\Desktop\i.txt") as arquivo:
         for i in arquivo:
             robo.press("F7")
+            time.sleep(1)
+            robo.write(i)
+            robo.press("enter")
+            robo.press("enter")
+            robo.press("enter")
+            robo.press("enter")
+            robo.press("enter")
+            time.sleep(1)
+            robo.press("F9")
+            time.sleep(15)
             
+
             
 time.sleep(3)
 robo.position()
