@@ -2,7 +2,6 @@ from gerar_transacoes.gerador_de_transacoes import abrirSistema, selecionarEmpre
 import time
 
 
-
 abrirSistema()
 time.sleep(10)
 selecionarEmpresa()
