@@ -51,30 +51,26 @@ def selecionarEmpresa():
 
 def gerarTransacao():
     #Escolhendo a rotina
+    robo.click(x=1030, y=6)
     robo.hotkey("Ctrl","Alt","F1")
+    
+    #Configurando
+    time.sleep(2)
+    robo.write("01/01/2020")
+    robo.press("tab")
+    time.sleep(1)
+    robo.write("31/12/2100")
+    robo.press("tab")
+    robo.press("tab")
+    time.sleep(2)
+    robo.press("enter")
 
 def repeticao():
     #repetição
     with open(r"C:\Users\victor.graciano\Desktop\i.txt") as arquivo:
         for i in arquivo:
             robo.press("F7")
-            time.sleep(2)
-            robo.write(i)
-            time.sleep(1)
-            robo.press("enter")
-            time.sleep(1)
-            robo.press("enter")
-            time.sleep(1)
-            robo.press("enter")
-            time.sleep(1)
-            robo.press("enter")
-            time.sleep(1)
-            robo.press("enter")
-            time.sleep(2)
-            robo.click(x=306, y=95)
-            time.sleep(3)
-            robo.click(x=903, y=407)
-            time.sleep(10)
+            
             
 time.sleep(3)
 robo.position()
