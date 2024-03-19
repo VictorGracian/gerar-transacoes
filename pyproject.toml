@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 mkdocs = "^1.5.3"
 pyautogui = "^0.9.54"
+ipykernel = "^6.29.3"
 
 
 [build-system]
