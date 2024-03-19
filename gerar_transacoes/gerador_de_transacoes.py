@@ -64,6 +64,7 @@ def gerarTransacao():
     robo.press("tab")
     time.sleep(2)
     robo.press("enter")
+    print("16 feito")
 
 def repeticao():
     #repetição
@@ -81,12 +82,6 @@ def repeticao():
             robo.press("F9")
             time.sleep(2)
             robo.press("enter")
+            i = i.replace("\n","")
             print(i,"feito")
             time.sleep(15)
-            
-
-            
-time.sleep(3)
-robo.position()
-
-
